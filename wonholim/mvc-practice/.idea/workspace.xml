@@ -69,7 +69,7 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,7 +126,7 @@
       <workItem from="1676359143228" duration="1122000" />
       <workItem from="1676360763319" duration="326000" />
       <workItem from="1676361102066" duration="578000" />
-      <workItem from="1676361691908" duration="3273000" />
+      <workItem from="1676361691908" duration="9089000" />
     </task>
     <servers />
   </component>
