@@ -18,10 +18,8 @@ PR을 날리시고, Approve를 할 때에는 다른 사용자의 폴더에 접�
 
   
 ---
-&nbsp;
-### 소개
-**(아무나 환영!) 모각코 - fast_and_steady 빠르고 꾸준하게 활동해봐요**
-  
+&nbsp;   
+### 팀원 소개  
   
 &nbsp;
 ### 스터디 목적
@@ -70,8 +68,6 @@ PR을 날리시고, Approve를 할 때에는 다른 사용자의 폴더에 접�
 - components
 - function
 
-&nbsp;   
-### 팀원 소개
 
 &nbsp;
 ### 회의록
