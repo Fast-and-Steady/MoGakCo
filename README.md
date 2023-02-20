@@ -15,3 +15,60 @@ PR을 날리시고, Approve를 할 때에는 다른 사용자의 폴더에 접�
 
 
 </div>
+
+  
+---
+&nbsp;   
+### 팀원 소개  
+  
+&nbsp;
+### 스터디 목적
+**최소 3월까지 언어 1개 기본기 다지기**
+   
+**향후 프로젝트 아이디어 제안 후 투표 - 프로젝트 분야**
+- Java - spring
+- python - AI, Django
+- Javascript - front-end, react
+- Infra - AWS, NGINX, Docker
+  
+  
+&nbsp;
+### 컨벤션
+**Commit**
+- 커밋 메세지
+- type :  *commit message *개발자 *수정파일들
+- ex) feat : 로그인 기능 구현, 회원가입 기능구현 유동윤 login.js profileform.js
+
+**merge request**
+
+- 제목 - 자동생성
+- 내용 - 작업물 요약
+- 라벨 - FE, BE 해당하는 라벨 달기
+
+&nbsp;
+### Jira
+
+- 매주 월요일 스프린트 등록
+- 오전 스크럼 때 상기시켜주기
+- 에픽은 각자 알아서 만들고 만들면 알려주기
+- 작업 후 done
+- 용어 정리 [https://velog.io/@kjh1551/JIRA-학습-정리](https://velog.io/@kjh1551/JIRA-%ED%95%99%EC%8A%B5-%EC%A0%95%EB%A6%AC)
+
+&nbsp;
+### Discord
+- 개발단계에서 어려웠던 점, 극복한 점 기록 (개발 일지)
+
+
+&nbsp;
+### Front 폴더구조
+
+- src
+- App.tsx
+- index.tsx
+- components
+- function
+
+
+&nbsp;
+### 회의록
+---
