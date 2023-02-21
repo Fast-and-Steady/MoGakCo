@@ -1,0 +1,44 @@
+<!--에멧은 html 틀을 작성하기 위한 명령어들이다. 다양한 축약어로 한번에 여러 태그를 달아놓고 안에
+    내용만 적으면 되니까 이용하면 좋은 확장팩.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmet Demo</title>
+  </head>
+  <body>
+    <!--main>section>header+ul 을 사용하고 탭을 한 상황. >는 netsting 이고, + 는 병렬로 태그를 생성한다. -->
+
+    <main>
+      <section>
+        <header></header>
+        <ul></ul>
+      </section>
+    </main>
+
+    <!--nav>ul>li*4 를 입력하고 탭을 한 상황. *를 이용하면 여러개의 태그를 만들 수 있다.-->
+    <nav>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+
+    <!--$표현은 간단한 자동 넘버링{}와 함께 사용, []는 하위 옵션을 적을 때 이용할 수 있음.-->
+    <!--nav>ul>li*5>a[href={link$}]-->
+    <nav>
+      <ul>
+        <li><a href="{link1}"></a></li>
+        <li><a href="{link2}"></a></li>
+        <li><a href="{link3}"></a></li>
+        <li><a href="{link4}"></a></li>
+        <li><a href="{link5}"></a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
