@@ -34,7 +34,11 @@
 - Javascript - front-end, react
 - Infra - AWS, NGINX, Docker
   
-  
+&nbsp;
+### Discord - 운영중
+- 개발단계에서 어려웠던 점, 극복한 점 기록 (개발 일지)
+- Discord 활동중 가입"kds0034@gmail.com"로 보내주세요^~^
+
 &nbsp;
 ### 컨벤션 - 계획중
 **Commit**
@@ -56,11 +60,6 @@
 - 에픽은 각자 알아서 만들고 만들면 알려주기
 - 작업 후 done
 - 용어 정리 [https://velog.io/@kjh1551/JIRA-학습-정리](https://velog.io/@kjh1551/JIRA-%ED%95%99%EC%8A%B5-%EC%A0%95%EB%A6%AC)
-
-&nbsp;
-### Discord - 운영중
-- 개발단계에서 어려웠던 점, 극복한 점 기록 (개발 일지)
-- Discord 활동중 가입"kds0034@gmail.com"로 보내주세요^~^
 
 &nbsp;
 ### 미팅
