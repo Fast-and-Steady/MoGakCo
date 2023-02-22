@@ -16,8 +16,8 @@ S
 W
 'src/main/java/org/example/MenuItem.java,9\4\942f1e817c9f458c0d103054b67a64e64e03f5e2
 W
-'src/test/java/org/example/Customer.java,c\1\c16de1329ab2e6cc69ecc758557ba3123127f676
-W
 'src/test/java/org/example/MenuTest.java,5\5\55b2e6072ec8a5a210c4f21327863300d1ac784c
+W
+'src/test/java/org/example/Customer.java,c\1\c16de1329ab2e6cc69ecc758557ba3123127f676
 [
 +src/test/java/org/example/CustomerTest.java,c\4\c4ecee5403a362d42aa28cca9a43fe3c1fbaeead
