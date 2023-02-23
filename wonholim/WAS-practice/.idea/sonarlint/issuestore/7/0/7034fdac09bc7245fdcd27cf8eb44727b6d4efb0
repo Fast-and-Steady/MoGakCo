@@ -1,0 +1,5 @@
+
+g	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¸Í…ùç0
+|
+java:S2178"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(úëÉ¡
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ƒžà°ýÿÿÿÿ
