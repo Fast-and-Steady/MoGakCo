@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heaviest Birds Table</title>
+</head>
+
+<body>
+  <h1>Heaviest Birds Table</h1>
+  <!--td = "table data" -->
+  <!--tr = "table row" -->
+  <!--th = "table header"-->
+  <!--사용법은 아래를 참고, tr 로 감싼 형태로 td 를 쓰면 되고,
+       맨 윗줄에 tr 을 감싼 채로 th 를 달아주는 느낌으로 하면 됩니다.-->
+
+  <!--thead, tbody, tfoot 은 그냥 감싸놓아서 표를 논리 섹션으로 구분해 주는 역할임 시멘틱 마크업같은거-->
+  <table>
+    <thead>
+      <tr>
+        <th>Animal</th>
+        <th>Average mass[kg (lb)]</th>
+        <th>Maximun mass[kg (lb)]</th>
+        <th>Flighted</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ostrich</td>
+        <td>104(230)</td>
+        <td>156.8 (346)</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Somali Ostrich</td>
+        <td>90 (200)</td>
+        <td>130 (287)</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Domestic turkey/wild turkey</td>
+        <td>13.5 (29.8)</td>
+        <td>39 (86)</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+  </table>
+  <!--두번째 표를 이용해서 rowpan, colpan 구현해서 비교해보기.-->
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Animal</th>
+        <th colspan="2">Average mass</th>
+        <th rowspan="2">Flighted</th>
+      </tr>
+      <tr>
+        <th>lb</th>
+        <th>kg</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ostrich</td>
+        <td>104</td>
+        <td>230</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Somali Ostrich</td>
+        <td>90</td>
+        <td>200</td>
+
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Domestic turkey/wild turkey</td>
+        <td>13.5</td>
+        <td>29.8</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>

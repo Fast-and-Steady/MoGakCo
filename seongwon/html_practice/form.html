@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form test</title>
+</head>
+
+<body>
+    <!--다양한 입력 형식에 대해서-->
+    <!--form, input-->
+    <!--input 은 type 보조옵션에 따라 20개정도의 틀이있다, 닫는 태그가 없음.-->
+    <!--placeholder 를 이용해서 대체문구를넣어주자.-->
+    <!--label 은 폼의 양식에 이름을 붙여주는 태그 for 과 id 를 주목.-->
+    <form action="/taccos">
+        <p><label for="username">Enter a username:</label>
+            <!--placeholder : 빈칸일 때 표시되는 글씨, name = 폼 제출 시 제출되는 변수명.-->
+            <input id="username" type="text" placeholder="Username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a password</label>
+            <input id="password" type="password" placeholder="password">>
+
+        </p>
+        <p>
+            <label for="color">Enter a color:</label>
+            <input type="color">
+
+        </p>
+        <p>
+            <label for="color">Enter a number :</label>
+            <input type="number">
+        </p>
+        <p>
+            <label for="time">Enter a time :</label>
+            <input type="time">
+        </p>
+        <!--button 기능 : 폼의 데이터를 전송한다. 아래는 레딧과 구글의 주소를 관찰해 폼 name을 파악한 뒤 양식에 맞춰 검색기능을 넣는 작업.-->
+        <!--id 는 css 할 때-->
+    </form>
+    <hr>
+    <h2>여기는 다양한 사이트에서 검색 기능을 가져온 예시입니다.</h2>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search Youtube</button>
+    </form>
+    <h2>More Inputs</h2>
+    <form action="/birds">
+        <!--체크박스에 ckecked 를 넣으면 페이지에 들어갈 떄 체크된 채로 시작-->
+        <input type="checkbox" name="argee_tos" , name="argee" checked>
+        <label for="argee_tos">I agree to everything</label>
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="M">M:</label>
+            <input type="radio" name="size" id="M" value="M">
+            <label for="L">L:</label>
+            <input type="radio" name="ize" id="L" value="L">
+        </p>
+        <p>
+            <!--옵션은 셀렉트 안에 가두며, 여기는 selected 옵션을 넣으면 새로고침 시 미리 이걸로 띄워져있음.-->
+            <label for="meal">Please Select an Entree</label>
+            <select name="name" id="meal">
+                <option value="fish">Fish</option>
+                <option value="meat" selected>Meat</option>
+                <option value="vegi">Vegetarian</option>
+                <option value="chicken">chicken</option>
+            </select>
+        </p>
+        <p>
+            <label for="requests">Any Special Requests?</label><br>
+            <textarea id="requests" name="requests" rows="10" cols="100" placeholder="Type something here"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
