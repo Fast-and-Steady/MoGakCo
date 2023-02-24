@@ -5,7 +5,7 @@ import org.example.caculator.domain.PositiveNumber;
 public class DivideOperator implements ArithmeticOperator {
     @Override
     public boolean supports(String operator) {
-        return "/".equals(operator);
+        return "%2F".equals(operator);
     }
 
     @Override

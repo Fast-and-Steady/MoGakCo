@@ -1,5 +1,5 @@
 
-V	java:S125+"<This block of commented-out lines of code should be removed.(¿„ÅÖÿÿÿÿÿ
-ƒ
-java:S21786"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(úëÉ¡8î‹Âöæ0
-Z	java:S106;"9Replace this use of System.out or System.err by a logger.(ƒà°ıÿÿÿÿ8•®áöæ0
+]	java:S125$"<This block of commented-out lines of code should be removed.(Š¥¿˜ÿÿÿÿÿ8·”§ùç0
+V	java:S1257"<This block of commented-out lines of code should be removed.(¿„ÅÖÿÿÿÿÿ
+\
+java:S1128	":Remove this unused import 'java.util.concurrent.Executor'.(÷ı¶Œúÿÿÿÿ8¸”§ùç0
