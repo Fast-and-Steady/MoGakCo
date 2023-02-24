@@ -22,7 +22,8 @@
     <td align="center"><a href="https://github.com/Gyeom96"><img src="https://github.com/Gyeom96.png" width="100px;" alt=""/><br /><sub><b>Gyeom96</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/asfawe"><img src="https://github.com/asfawe.png" width="100px;" alt=""/><br /><sub><b>asfawe</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/donggyun112"><img src="https://github.com/donggyun112.png" width="100px;" alt=""/><br /><sub><b>donggyun112</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/jeha0714"><img src="https://github.com/jeha0714.png" width="100px;" alt=""/><br /><sub><b>jeha0714</b></sub></a><br /></td>
+  </tr>
+  <tr>    <td align="center"><a href="https://github.com/jeha0714"><img src="https://github.com/jeha0714.png" width="100px;" alt=""/><br /><sub><b>jeha0714</b></sub></a><br /></td>
   </tr>
 </table>
 
