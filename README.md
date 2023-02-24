@@ -24,9 +24,6 @@
     <td align="center"><a href="https://github.com/donggyun112"><img src="https://github.com/donggyun112.png" width="100px;" alt=""/><br /><sub><b>donggyun112</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/jeha0714"><img src="https://github.com/jeha0714.png" width="100px;" alt=""/><br /><sub><b>jeha0714</b></sub></a><br /></td>
   </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/jeha0714"><img src="https://github.com/jeha0714.png" width="100px;" alt=""/><br /><sub><b>jeha0714</b></sub></a><br /></td>
-  </tr>
 </table>
 
 &nbsp;
