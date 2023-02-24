@@ -27,7 +27,7 @@ int main()
 		{
 			int dy = y + direct[j][0];
 			int dx = x + direct[j][1];
-			if (map[dy][dx] != 2 && dy < 4 && dx < 4)
+			if (dy < 4 && dx < 4 && dy >= 0 && dx >= 0 && map[dy][dx] != 2)
 				map[dy][dx] = 1;
 		}
 	}
