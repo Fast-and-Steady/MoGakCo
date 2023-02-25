@@ -1,0 +1,72 @@
+GET http://localhost:8080/caculate?operand1=20&operator=-&operand2=10
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-26T023343.404.html
+
+###
+
+GET http://localhost:8080/caculate?operand1=20&operator=-&operand2=10
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-26T023321.404.html
+
+###
+
+GET http://localhost:8080/caculate
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-26T023320.404.html
+
+###
+
+GET http://localhost:8080/caculate?operand1=20&operator=-&operand2=10
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-26T022942.404.html
+
+###
+
+GET http://localhost:8080/caculate
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-26T022524.404.html
+
+###
+
+GET http://localhost:8080/caculate
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-26T022521.404.html
+
+###
+
+GET http://localhost:8080/caculate
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-26T022515.404.html
+
+###
+
+GET http://localhost:8080/caculate
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-26T022359.404.html
+
+###
+
