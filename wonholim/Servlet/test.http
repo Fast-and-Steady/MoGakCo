@@ -1,0 +1,4 @@
+GET http://localhost:8080/caculate
+
+###
+GET http://localhost:8080/caculate?operand1=20&operator=-&operand2=10
