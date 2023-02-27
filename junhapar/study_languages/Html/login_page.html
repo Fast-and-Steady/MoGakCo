@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>login</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+
+                justify-content: center;
+                align-items: center;
+
+                min-width: 100vw;
+                min-height: 100vh;
+            }
+
+            #image_ {
+                text-align: center;
+            }
+
+            #main {
+                display : flex;
+                flex-direction: row;
+                
+                justify-content: center;
+                align-items: center;
+
+                min-height: 100%;
+            }
+            .login_name {
+                display:flex;
+                flex-direction: column;
+            }
+            #login_box {
+                margin: 1rem;
+            }
+            #login_button {
+                min-height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="image_">
+            <img src="https://apply.42seoul.kr/uploads/admissions/campus/logo_website/18/logo42.svg" 
+            style="width:50%;">
+        </div>
+
+        <div id="main">
+
+            <div id="login_name">
+                <p>ID :</p>
+                <p>PW :</p>
+            </div>
+            <div>
+                <div id="login_box"><input type="text" placeholder="아이디를 입력하시오."></div>
+                <div id="login_box"><input type="text" placeholder="비밀번호를 입력하시오."></div>
+            </div>
+            <div >
+                <button id="login_button">로그인하기</button>
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>새 탭</title>
+        <link href="https://www.google.co.kr/chrome/static/images/chrome-logo-m100.svg" rel="shortcut icon" type="image/x-icon"> 
+
+        <style>
+            body {
+                display :flex;
+                flex-direction: column;
+
+
+                min-width: 100vw;
+                min-height: 100vh;
+            }
+
+            #top {
+                /* 확대와 축소 및 사용자 사이트 환경설정 유무와 관계없이 크기가 동일 */
+
+                display:flex;
+                flex-direction: row-reverse;
+                align-items: center;
+
+            }
+            
+            .func {
+                margin : 0.5rem;
+
+                font-size: 14px;
+            }
+            .func_a {
+                text-decoration: none;
+            }
+            .func_a:link {
+                color:black;
+            }
+            .func_a:hover {
+                text-decoration: underline;
+            }
+            .func_a:visited {
+                color : black;
+                text-decoration: none;
+            }
+            #account {
+                
+            }
+
+            #center {
+                display :flex;
+                flex-direction: column;
+
+                justify-content: center;
+                align-items: center;
+
+                height: 80%;
+
+            }
+
+            #google_logo {
+                width: 45%;
+                margin : 2rem;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="top">
+                <div class="func">
+                    <a  href="https://accounts.google.com/SignOutOptions?hl=ko&continue=https://www.google.com%3Fhl%3Dko">
+                        <img id="account" src="https://lh3.googleusercontent.com/ogw/AAEL6siGv9Wi62aGKrGg4pOh-5CknKbXYAxp3fc6KNn1=s64-c-mo"
+                        style="width:30px; height:30px; border-radius: 70%;">
+                    </a>
+                </div>
+                <div class="func">?</div>
+                <div class="func">
+                    <a class="func_a" href="https://www.google.co.kr/imghp?hl=ko&tab=ri&ogbl">
+                        이미지
+                    </a>
+                </div>
+                <div class="func">
+                    <a class="func_a" href="https://mail.google.com/mail/?tab=rm&ogbl">
+                        Gmail
+                    </a>
+                </div>
+        </div>
+
+        <div id="center">
+
+            <img id="google_logo" src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+
+            <div id="search">
+                <input type="search", placeholder="Google 검색 또는 URL 입력"></div>
+            </div>
+
+            <div id="direct">
+            </div>
+
+        </div>
+
+           </body>
+</html>
