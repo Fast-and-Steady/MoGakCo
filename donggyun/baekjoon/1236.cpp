@@ -46,3 +46,9 @@ int main()
         if (arr[y].find("X") == -1) cnt++;
     cout << cnt;
 }
+/*--> 4 4
+X . . .
+. X . .
+. . X .
+. . . X
+*/
