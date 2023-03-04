@@ -5,11 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="744304ca-fa0e-44fb-85de-9d5ae37b242b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/CalCulatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/WebApplicationServerLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/caculator/domain/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/caculator/domain/EnumArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/caculator/domain/PositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/caculator/tobe/AddOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/caculator/tobe/ArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/caculator/tobe/DivideOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/caculator/tobe/MultypleOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/main/java/org/example/caculator/tobe/SubtractOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WAS-practice/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../WAS-practice/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be41d56cbb32d4676990f653289aac4cd70d4990" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +155,7 @@
       <workItem from="1676361691908" duration="9089000" />
       <workItem from="1676470215567" duration="1675000" />
       <workItem from="1676473936556" duration="1320000" />
+      <workItem from="1677345250387" duration="373000" />
     </task>
     <servers />
   </component>
