@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Basics</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <script src="assets/scripts/vendor.js" defer></script>
+    <script src="assets/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>The Unconventional Calculator</h1>
+    </header>
+
+    <section id="calculator">
+      <input type="number" id="input-number" />
+      <div id="calc-actions">
+        <button type="button" id="btn-add">+</button>
+        <button type="button" id="btn-subtract">-</button>
+        <button type="button" id="btn-multiply">*</button>
+        <button type="button" id="btn-divide">/</button>
+      </div>
+    </section>
+    <section id="results">
+      <h2 id="current-calculation">0</h2>
+      <h2>Result: <span id="current-result">0</span></h2>
+    </section>
+  </body>
+</html>
+<!-- 스크립트가 길어지면 모든 코드가 구문 분석 될 때까지 기다렸다가 스크립트 로딩을 시작하는
+  것은 좋은 방법이 아님 구문 분석된 콘텐츠에 의존하기 때문에 구문 분석 후에 실행하고자 하는 것인데
+  스크립트 실행은 하지 않더라도 미리 로딩 되거나 서버에서 다운로드 하는 것은 좋은 방법이 됨
+  지연을 확실히 줄이기 위해 script를 구문 분석 된 후에 로딩을 시작하는 것이 아니라(body tag 끝나기 직전이 아니라)
+  만약 head 마지막 부분에 그냥 넣으면 오류가 발생해서 좋은 방법이 아님
+  이때 추가 가능한 속성이 defer 속성
+  defer 속성을 추가하면 구문 분석이 끝난 후에만 스크립트가 실행됨
+  최대한 빨리 스크립트를 로드하고 구문 전체가 분석된 후에 실행하도록 해서 일석이조의 효과를 얻음
+  head 섹션에 defer 속성으로 script를 import 하면 빨리 로드 되지만 html 구문 분석이 완료된 후에만 실행됨 (순서보장)
+  만일 스크립트를 미리 로드하고 실행도 미리 해야하면 (다시말해 html 코드에 의존하지 않아서 연결을 하지 않아도 될 경우)
+  async를 사용하면 되는데, async는 최대한 빠르게 실행함(스크립트가 다운로드 되자마자 실행)
+  보통 웹 페이지와 상호작용하지 않고 백그라운드 서버에 일부 데이터만 전송한다면 사용
+  둘 다 외부 스크립트에서만 사용 가능
+  <script src="assets/scripts/app.js" defer></script>
+  <script src="assets/scripts/app.js" async></script> -->
