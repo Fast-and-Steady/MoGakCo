@@ -1,0 +1,5 @@
+original_data = input().split()
+a = int(original_data[0])
+b = int(original_data[1])
+c = int(original_data[2])
+print(a + b + c)
