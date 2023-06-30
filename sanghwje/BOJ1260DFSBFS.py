@@ -1,5 +1,9 @@
+from collections import deque
+
+D = deque()
+
 N, M, V = map(int, input().split())
-relations = [[] for _ in range(M)]
+relations = [[] for _ in range(N+1)]
 answer = []
 visits = [False] * 1001
 break_point = False
@@ -20,9 +24,21 @@ def DFS(idx):
                 DFS(i)
                 visits[i] = False
         else:
-            break_point = True
             return
+    
 
 DFS(V)
-print(answer)
+visits[V] = False
+print(*answer)
+answer.clear()
 
+D.append(V)
+visits[V] = True
+answer.append(V)
+while D:
+    for i in relations[D.popleft()]:
+        if not visits[i]:
+            D.append(i)
+            answer.append(i)
+            visits[i] = True
+print(*answer)
