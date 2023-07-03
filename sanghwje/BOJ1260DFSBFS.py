@@ -21,8 +21,8 @@ def DFS(idx):
         answer.append(idx)
         for i in relations[idx]:
             if not visits[i]:
+                visits[i] = True
                 DFS(i)
-                visits[i] = False
         else:
             return
     
@@ -30,11 +30,13 @@ def DFS(idx):
 DFS(V)
 visits[V] = False
 print(*answer)
+visits = [False] * 1001
 answer.clear()
 
+
+answer.append(V)
 D.append(V)
 visits[V] = True
-answer.append(V)
 while D:
     for i in relations[D.popleft()]:
         if not visits[i]:
@@ -42,3 +44,4 @@ while D:
             answer.append(i)
             visits[i] = True
 print(*answer)
+
