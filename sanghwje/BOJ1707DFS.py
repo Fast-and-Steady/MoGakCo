@@ -1,4 +1,5 @@
-import sys            # (중요) Recursion 늘리기!!!
+import sys
+sys.setrecursionlimit(10**6)             # (중요) Recursion 늘리기!!!
 K = int(sys.stdin.readline())
 for _ in range(K):
     break_point = False
@@ -13,16 +14,19 @@ for _ in range(K):
     def DFS(idx, visits_num):
         global break_point
         for j in relations[idx]:
-            if visits[idx] == 0:
-                if visits_num == -1:
-                    visits[idx] = 1
+            if not break_point:
+                if visits[j] == 0:
+                    if visits_num == -1:
+                        visits[j] = 1
+                    else:
+                        visits[j] = -1
+                    DFS(j, visits[j])
                 else:
-                    visits[idx] = -1
-                DFS(j, visits[idx])
-            else:
-                if visits_num == visits[idx]:
-                    break_point = True
-                    return
+                    if visits_num == visits[j]:
+                        break_point = True
+                        return
+        else:
+            return  
     for i in range(1, N+1):
         if not break_point:
             if visits[i] == 0:
@@ -32,5 +36,4 @@ for _ in range(K):
             break
     else:
         visits = [0] * (N+1)
-        print('YES')
-            
+        print('YES')            
