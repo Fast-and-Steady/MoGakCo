@@ -1,7 +1,7 @@
 from collections import deque
 dq = deque()
 dx = [-1, -1, -1, 0, 1, 1, 1, 0]
-dy = [-1, 0, 1, 1, 1, 0, -1, 1]
+dy = [-1, 0, 1, 1, 1, 0, -1, -1]
 
 def BFS(x,y):
     dq = []
